@@ -1,0 +1,25 @@
+.cardProducto {
+  width: 18rem;
+  margin: 4px;
+  border-color: hsl(0, 0, 97)
+}
+
+.cardBody {
+  background-color: white;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+
+img {
+  /* margin-top: 3px; */
+  width: 100%;
+  min-height: 400px;
+  object-fit: cover;
+}
+
+.itemDetail {
+  max-width: 760px;
+  margin-top: 20px;
+  text-align: center;
+}

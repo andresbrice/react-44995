@@ -5,12 +5,6 @@ const Sections = () => {
     <>
       {/* Categorias de productos */}
       <Categories />
-
-      <li className="nav-item">
-        <a className="nav-link" href="index.html">
-          Contacto
-        </a>
-      </li>
     </>
   );
 };

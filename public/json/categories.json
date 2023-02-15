@@ -1,0 +1,14 @@
+[
+  {
+    "idCategoria": 1,
+    "nomCategoria": "Pizzas"
+  },
+  {
+    "idCategoria": 2,
+    "nomCategoria": "Empanadas"
+  },
+  {
+    "idCategoria": 3,
+    "nomCategoria": "Bebidas"
+  }
+]

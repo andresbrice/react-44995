@@ -1,4 +1,16 @@
+import { useEffect, useState } from "react";
+import { consultarBD } from "../../../utils/functions";
+import LinkCategories from "../../LinkCategories/LinkCategories";
+
 const Categories = () => {
+  useEffect(() => {
+    consultarBD("../json/categories.json").then((categories) => {
+      console.log(categories);
+      setCategories(categories);
+    });
+  }, []);
+
+  const [categories, setCategories] = useState();
   return (
     <li className="nav-item dropdown">
       <a
@@ -11,26 +23,7 @@ const Categories = () => {
         Categorías
       </a>
       <ul className="dropdown-menu">
-        <li>
-          <a className="dropdown-item" href="index.html">
-            Pizzas
-          </a>
-        </li>
-        <li>
-          <a className="dropdown-item" href="index.html">
-            Empanadas
-          </a>
-        </li>
-        <li>
-          <a className="dropdown-item" href="index.html">
-            Gaseosas
-          </a>
-        </li>
-        <li>
-          <a className="dropdown-item" href="index.html">
-            Postres
-          </a>
-        </li>
+        <LinkCategories categories={categories} />
       </ul>
     </li>
   );

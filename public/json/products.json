@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "idCategoria": 1,
+    "nombre": "Faina ",
+    "descripcion": "Porción",
+    "precio": 250,
+    "stock": 30,
+    "img": "faina.jpg"
+  },
+  {
+    "id": 2,
+    "idCategoria": 1,
+    "nombre": "Pizza Calabreza",
+    "descripcion": "Grande",
+    "precio": 2000,
+    "stock": 25,
+    "img": "pizzaCalabresa.jpg"
+  },
+  {
+    "id": 3,
+    "idCategoria": 1,
+    "nombre": "Pizza Especial",
+    "descripcion": "Grande",
+    "precio": 2100,
+    "stock": 20,
+    "img": "pizzaEspecial.jpg"
+  },
+  {
+    "id": 4,
+    "idCategoria": 1,
+    "nombre": "Pizza Fugazzeta",
+    "descripcion": "Grande",
+    "precio": 2200,
+    "stock": 10,
+    "img": "pizzaFugazzeta.jpg"
+  },
+  {
+    "id": 5,
+    "idCategoria": 1,
+    "nombre": "Pizza Mozzarella",
+    "descripcion": "Grande",
+    "precio": 1900,
+    "stock": 30,
+    "img": "pizzaMozzarella.jpg"
+  },
+  {
+    "id": 6,
+    "idCategoria": 1,
+    "nombre": "Pizza Napolitana",
+    "descripcion": "Grande",
+    "precio": 2000,
+    "stock": 21,
+    "img": "pizzaNapolitana.jpg"
+  },
+  {
+    "id": 7,
+    "idCategoria": 1,
+    "nombre": "Pizza de Rúcula",
+    "descripcion": "Grande",
+    "precio": 2100,
+    "stock": 25,
+    "img": "pizzaRucula.jpg"
+  },
+  {
+    "id": 8,
+    "idCategoria": 2,
+    "nombre": "Empanada de Jamón y Queso",
+    "descripcion": "Docena",
+    "precio": 2400,
+    "stock": 30,
+    "img": "empanadas.jpg"
+  },
+  {
+    "id": 9,
+    "idCategoria": 2,
+    "nombre": "Empanada de Carne",
+    "descripcion": "Docena",
+    "precio": 2400,
+    "stock": 20,
+    "img": "empanadas.jpg"
+  },
+  {
+    "id": 10,
+    "idCategoria": 2,
+    "nombre": "Empanada de Pollo",
+    "descripcion": "Docena",
+    "precio": 2400,
+    "stock": 15,
+    "img": "empanadas.jpg"
+  },
+  {
+    "id": 11,
+    "idCategoria": 3,
+    "nombre": "Cerveza Heineken",
+    "descripcion": "1 LT",
+    "precio": 400,
+    "stock": 30,
+    "img": "cerveza.jpg"
+  },
+  {
+    "id": 12,
+    "idCategoria": 3,
+    "nombre": "Gaseosa Coca Cola",
+    "descripcion": "2.25 LTS",
+    "precio": 500,
+    "stock": 20,
+    "img": "gaseosa.jpg"
+  }
+]
